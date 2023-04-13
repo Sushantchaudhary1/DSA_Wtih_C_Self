@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 struct node{
     char info;
