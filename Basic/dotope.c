@@ -1,3 +1,4 @@
+//Print"HELLO" using dot operator
 #include<stdio.h>
 struct node{
     char info;
