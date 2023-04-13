@@ -1,3 +1,4 @@
+\\Print"HELLO" using arrow operator
 #include<stdio.h>
 struct node{
     char info;
