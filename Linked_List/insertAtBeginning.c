@@ -90,8 +90,14 @@ void InsertAtBeg(struct node *ptr)
     scanf("%d",&data);
     temp->info=data;
     temp->next=NULL;
+  if(head==NULL)
+    {
+        head=temp;
+    }
+  else{
     temp->next=ptr;
     head=temp;
+  }
     printf("Node Inserted successfully......");
 }
 
